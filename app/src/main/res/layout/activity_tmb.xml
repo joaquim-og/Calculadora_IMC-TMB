@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".TmbActivity">
+
+        <TextView
+            style="@style/TextViewForm"
+            android:text="@string/tmb_desc"/>
+
+        <EditText
+            style="@style/EditTextform"
+            android:id="@+id/tmb_weight"
+            android:hint="@string/weight"/>
+
+        <EditText
+            style="@style/EditTextform"
+            android:id="@+id/tmb_height"
+            android:hint="@string/height"/>
+
+        <EditText
+            style="@style/EditTextform"
+            android:id="@+id/tmb_age"
+            android:hint="@string/age"/>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            style="@style/SpinnerForm"
+            android:id="@+id/tmb_lifestyle"
+            android:entries="@array/tmb_lifestyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/ButtonForm"
+            android:id="@+id/tmb_send"
+            android:text="@string/calc"/>
+    </LinearLayout>
+</ScrollView>
