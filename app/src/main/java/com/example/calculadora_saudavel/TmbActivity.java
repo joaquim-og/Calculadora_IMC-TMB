@@ -70,7 +70,7 @@ public class TmbActivity extends AppCompatActivity {
             im.hideSoftInputFromWindow(editWeight.getWindowToken(),0);
             im.hideSoftInputFromWindow(editHeight.getWindowToken(),0);
             im.hideSoftInputFromWindow(editAge.getWindowToken(),0);
-
+            //aa
         });
 
     }
